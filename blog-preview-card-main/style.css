@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Figtree', sans-serif;
+}
+body {
+    background-color:  hsl(47, 88%, 63%);
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    
+    
+    
+}
+
+.container-card {
+    width: 400px;
+    height: 490px;
+    background-color: hsl(0, 0%, 100%);
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
+    border: 1.5px solid black;
+    box-shadow: 8px 8px 0px 0px rgba(16, 16, 16, 1);
+    
+    
+
+    
+    
+}
+p, h1 {
+    margin-bottom: 3%;
+}
+.learning {
+    padding: 10px auto;
+    background-color: hsl(47, 88%, 63%);
+    width: 20%;
+    height: 20px;
+    text-align: center;
+    border-radius: 3px;
+    margin-bottom: 2%;
+}
+/* =======Image====== */
+.img-svg {
+    width: 90%;
+    border-radius: 7px;
+    margin: 5px;
+}
+
+.content-text {
+    max-width: 90%;
+    margin-top: 4%;
+}
+
+h1:hover {
+    cursor: pointer;
+    color: hsl(47, 88%, 63%);
+}
+figure {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    
+}
+figure img {
+    margin-right: 1rem;
+}
+figcaption {
+    font-weight: 600;
+}
+.colored {
+    color: hsl(0, 0%, 50%);
+}
+h1 {
+    font-weight: 800;
+}
+
+/* ======FOOTER========== */
+.attribution {
+    text-align: center;
+    margin-top: 5%;
+}
